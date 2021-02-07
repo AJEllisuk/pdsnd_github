@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+6/2/2021
 
 ### Project Title
-Replace the Project Title
+Bike Share
 
 ### Description
-Describe what your project is about and what it does
+The script bikshare_2.py is a python script used to allow a user to anaylse data about bike sharing schemes.
 
 ### Files used
-Include the files used
+bikeshare_2.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The template for this project is supplied by Udacity
 
