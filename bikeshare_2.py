@@ -7,16 +7,21 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
-# Create an array containg the 12 months. An extra entry 'all' is included to allow the user
-# to work with data for all months in a data file for a given city
+# Create a list containg the 12 months. An extra entry 'all' is included to allow the user
+# to work with data for all months in a data file for a given city. Each entry is in lower case 
+# to simplify the process of checking the users entries to ensure they are valid.
 month_list = ['all', 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
-# Create an array containg the days of the week. An extra entry 'all' is included to allow the user
-# to work with data for every day of the week in a data file for a given city
+# Create a list containg the days of the week. An extra entry 'all' is included to allow the user
+# to work with data for every day of the week in a data file for a given city. Each entry is in lower case 
+# to simplify the process of checking the users entries to ensure they are valid.
 day_list = ['all', 'sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
 
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
+
+    The data entered by the user is converted to lower case with .lower()
+    to simplify the process of checking the entry to ensure that it is valid.
 
     Returns:
         (str) city - name of the city to analyze
