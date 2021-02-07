@@ -7,7 +7,11 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+# Create an array containg the 12 months. An extra entry 'all' is included to allow the user
+# to work with data for all months in a data file for a given city
 month_list = ['all', 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
+# Create an array containg the days of the week. An extra entry 'all' is included to allow the user
+# to work with data for every day of the week in a data file for a given city
 day_list = ['all', 'sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
 
 def get_filters():
