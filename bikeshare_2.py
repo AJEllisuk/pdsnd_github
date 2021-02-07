@@ -1,8 +1,14 @@
+# Import the libraries to provide the needed functionality:
+# time
 import time
+# pandas - provides functions for data analysys
 import pandas as pd
+# numpy - a library for working with arrays
 import numpy as np
 from statistics import mode, StatisticsError
 
+# This array contains information about the cities for which data is available
+# and the filenames for the data files
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
